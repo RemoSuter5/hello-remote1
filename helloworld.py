@@ -1,2 +1,3 @@
-print("Hallo!")
-print("change on github")
+import sys
+
+print("Hallo! {}!".format(sys.argv[1]))
